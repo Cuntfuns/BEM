@@ -1,0 +1,19 @@
+@import "nullstyle.scss";
+
+.about {
+	&__body {}
+	&__header {}
+	&__title {}
+	&__text {}
+	&__row {}
+	&__colum {}
+}
+
+.title {
+}
+
+.item-about {
+	&__icon {}
+	&__title {}
+	&__text {}
+}

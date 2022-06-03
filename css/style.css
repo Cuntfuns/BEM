@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900");
 * {
   padding: 0;
   margin: 0;
@@ -68,4 +69,101 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
+}
+
+body {
+  font-family: Lato;
+}
+
+.about__body {
+  max-width: 823px;
+  margin: 0 auto;
+}
+
+.about__header {
+  margin: 30px 0 65px 0;
+}
+
+.about__title {
+  margin: 0 0 30px 0;
+}
+
+.about__text {
+  max-width: 688px;
+  color: #868585;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25.89px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+
+.about__colum {
+  padding: 0 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+  position: relative;
+  text-align: center;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  bottom: 0;
+  height: 1px;
+  left: 50%;
+  margin: 0 0 0 -25px;
+  background-color: #000;
+}
+
+.item-about__icon {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 92px;
+  height: 92px;
+  border: 2px solid #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 40px;
+}
+
+.item-about__title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3.52px;
+  margin: 0 0 35px 0;
+  text-align: center;
+}
+
+.item-about__text {
+  text-align: center;
+  color: #868585;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
 }
